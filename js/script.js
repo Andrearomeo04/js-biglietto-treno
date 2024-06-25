@@ -17,4 +17,6 @@ if (perc_discount != 0) {
     let discount = km_price * perc_discount / 100;
     km_price -= discount;
 }
+
+km_price = km_price.toFixed(2)
 console.log(km_price)   
